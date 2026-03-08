@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04bc372f0cc71284bb8a67edec5ed22e, type: 3}
+  m_Name: EnemySoundData
+  m_EditorClassIdentifier: Assembly-CSharp::MP1.Audio.SoundData
+  hitSounds:
+  - {fileID: 8300000, guid: 605611dd6463bbc4090ab6408907d9e8, type: 3}
+  - {fileID: 8300000, guid: d7ea6b2cca581414e87717a0d085aa62, type: 3}
+  attackSounds: []
+  deathSound: {fileID: 8300000, guid: df7b0527bedef454c888055c076048ed, type: 3}
+  footSounds: []
+  BattleCry: {fileID: 8300000, guid: 96ceb5b36e13700449b601af9a6b938b, type: 3}

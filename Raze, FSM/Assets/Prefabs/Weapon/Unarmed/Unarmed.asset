@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac9354eb32935e469fe545e9bf0601c, type: 3}
+  m_Name: Unarmed
+  m_EditorClassIdentifier: Assembly-CSharp::MP1.Combat.Weapon
+  animatorOverride: {fileID: 22100000, guid: 8b2700b134de94b4e8d895f50b4ac02a, type: 2}
+  weaponPrefab: {fileID: 0}
+  damage: 10
+  balanceDamage: 10
+  attackSpeed: 0.5
+  maxComboCount: 3
+  attackAudioClips:
+  - {fileID: 8300000, guid: c266e86e5ec11e344bf66dede26cbc46, type: 3}
+  - {fileID: 8300000, guid: 90fb91c5d9f18df4183363d36d921429, type: 3}
+  - {fileID: 8300000, guid: c266e86e5ec11e344bf66dede26cbc46, type: 3}
+  staminaCost: 10
+  attackRangeShape: 0
+  attackRangeOffset: {x: 0, y: 1, z: 0.8}
+  attackRangeSize: {x: 1, y: 1, z: 0.5}
